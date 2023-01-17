@@ -1,0 +1,9 @@
+.card {
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+  border-radius: 30px;
+  border: 2px solid #a8a8a8;
+}
