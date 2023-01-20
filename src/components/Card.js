@@ -1,32 +1,27 @@
 import classes from "./Card.module.css";
 import Column from "./Column";
 import ProjectLink from "./ProjectLink";
-import githubSvg from "../svg/github.svg"
-import linkedinSvg from "../svg/linkedin.svg"
-import faceJpg from "../img/face.jpg"
+import githubSvg from "../svg/github.svg";
+import linkedinSvg from "../svg/linkedin.svg";
+import faceJpg from "../img/face.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Card = (props) => {
+  const navigate = useNavigate();
+
   return (
     <div className={classes.card}>
       <Column className={classes.column1}>
-        <img
-          className={classes.photo}
-          src={faceJpg}
-          alt="Me"
-        />
+        <img className={classes.photo} src={faceJpg} alt="Me" />
         <h1 className={classes.textShadow}>Kamil Słabosz</h1>
         <h2 className={classes.textShadow}>Frontend Developer</h2>
         <div className={classes.icon_row}>
-          <img
-            className={classes.icon} 
-            src={githubSvg}
-            alt="github"
-          />
-          <img
-            className={classes.icon}
-            src={linkedinSvg}
-            alt="linkedin"
-          />
+          <a href="https://github.com/kamilslabosz">
+            <img className={classes.icon} src={githubSvg} alt="github" />
+          </a>
+          <a href="https://www.linkedin.com/in/kamil-słabosz-193634222">
+            <img className={classes.icon} src={linkedinSvg} alt="linkedin" />
+          </a>
         </div>
       </Column>
       <Column className={classes.column2}>
@@ -38,7 +33,9 @@ const Card = (props) => {
           creative problem solving and leading a group of people. Keen to learn
           and gain new skills and qualifications. Highly motivated.
         </p>
-        <p className={classes.paragraph}>In my spare time I'm a movie buff and a board gamer.</p>
+        <p className={classes.paragraph}>
+          In my spare time I'm a movie buff and a board gamer.
+        </p>
         <h1>My projects</h1>
         <ProjectLink
           href="#"

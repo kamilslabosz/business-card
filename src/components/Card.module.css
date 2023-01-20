@@ -55,3 +55,37 @@
   text-align: start;
   align-self: start;
 }
+
+@media (max-width: 1250px) {
+  .card {
+    flex-direction: column;
+    overflow-y: overlay;
+    width: 90vw;
+    height: 92vh;
+  }
+
+  .card::-webkit-scrollbar-thumb {
+    background: #f1f1f136;
+  }
+
+  .card::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .column1 {
+    margin-top: 3%;
+  }
+
+  .column2 {
+    padding: 0 3% 5%;
+  }
+
+  .icon_row {
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+  }
+
+  .column2 {
+    border-radius: 30px 30px 0 0;
+  }
+}

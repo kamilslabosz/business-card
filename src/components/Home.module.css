@@ -1,7 +1,14 @@
 .main {
-    text-align: center;
-    background-color: #ffffff;
-    background-image: url('../img/bgall.png');
-    padding-top: 10vh;
-    min-height: 90vh;
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url("../img/bgall.png");
+  padding-top: 10vh;
+  min-height: 90vh;
+}
+
+@media (max-width: 1250px) {
+  .main {
+    padding-top: 3vh;
+    min-height: 97vh;
   }
+}
