@@ -24,11 +24,11 @@ const Card = (props) => {
       <Column className={classes.column2}>
         <h1>About Me</h1>
         <p className={classes.paragraph}>
-          I’m a self-taught developer with broad experience in management,
+          I’m a self-taught developer with experience in management,
           gained through working in family business as well as running a small
           business focused on sales. Skilled in establishing connections,
           creative problem solving and leading a group of people. Keen to learn
-          and gain new skills and qualifications. Highly motivated.
+          and gain new skills and qualifications.
         </p>
         <p className={classes.paragraph}>
           In my spare time I'm a movie buff and a board gamer.

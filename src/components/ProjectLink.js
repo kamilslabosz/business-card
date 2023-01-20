@@ -6,7 +6,7 @@ const ProjectLink = (props) => {
   const { href, title, description } = props;
   return (
     <>
-      <a className={classes.link} href={href} onClick={navigate(href)}>
+      <a className={classes.link} href={href} onClick={() => navigate(href)}>
         {title}
       </a>
       <p className={classes.paragraph}>{description}</p>
