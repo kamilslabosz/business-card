@@ -1,0 +1,12 @@
+.main {
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("../img/bgall.png");
+    padding-top: 10vh;
+    min-height: 90vh;
+  }
+
+.loader {
+    border-radius: 50%;
+    max-width: 80vw;
+}

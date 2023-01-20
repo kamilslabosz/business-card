@@ -4,11 +4,8 @@ import ProjectLink from "./ProjectLink";
 import githubSvg from "../svg/github.svg";
 import linkedinSvg from "../svg/linkedin.svg";
 import faceJpg from "../img/face.jpg";
-import { useNavigate } from "react-router-dom";
 
 const Card = (props) => {
-  const navigate = useNavigate();
-
   return (
     <div className={classes.card}>
       <Column className={classes.column1}>
@@ -43,12 +40,12 @@ const Card = (props) => {
           description="Made in react using class components."
         />
         <ProjectLink
-          href="https://marvel-clicker.onrender.com/"
+          href="/marvel-clicker"
           title="Marvel Clicker"
           description="Very simple cookie clicker type game made with react."
         />
         <ProjectLink
-          href='"https://random-training.onrender.com"'
+          href="/random-training"
           title="Random Training Video"
           description="Made with EJS and mongoDB."
         />
