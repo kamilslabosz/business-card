@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const Loading = (props) => {
   const { url } = props;
   useEffect(() => {
-    window.location.href = url;
+    window.location.replace(url);
   }, [url]);
 
   return (

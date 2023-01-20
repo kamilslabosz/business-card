@@ -22,6 +22,10 @@ const router = createBrowserRouter([
     path: "/random-training",
     element: <Loading url="https://random-training.onrender.com" />,
   },
+  {
+    path: "*",
+    element: <Home/>
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
