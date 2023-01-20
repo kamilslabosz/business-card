@@ -3,8 +3,8 @@ import classes from "./ProjectLink.module.css";
 const ProjectLink = (props) => {
   return (
     <>
-      <a href={props.href}>{props.title}</a>
-      <p>{props.description}</p>
+      <a className={classes.link} href={props.href}>{props.title}</a>
+      <p className={classes.paragraph}>{props.description}</p>
     </>
   );
 };

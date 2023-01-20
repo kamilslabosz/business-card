@@ -1,7 +1,7 @@
 .main {
     text-align: center;
-    background-color: #9dc6ec;
-    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-color: #ffffff;
+    background-image: url('../img/bgall.png');
     padding-top: 10vh;
     min-height: 90vh;
   }
