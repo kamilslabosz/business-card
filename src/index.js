@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import Loading from "./components/Loading";
-import Test from "./components/test";
 
 const router = createBrowserRouter([
   {
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
   {
     path: "/random-training",
     element: <Loading url="https://random-training.onrender.com" />,
-  },
-  {
-    path: "/test",
-    element: <Test/>
   },
   {
     path: "*",
