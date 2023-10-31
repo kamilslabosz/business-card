@@ -24,11 +24,13 @@ const Card = (props) => {
       <Column className={classes.column2}>
         <h1>About Me</h1>
         <p className={classes.paragraph}>
-          I’m a self-taught front-end developer with experience in management,
-          gained through working in family business as well as running a small
-          business focused on sales. Skilled in establishing connections,
-          creative problem solving and leading a group of people. Keen to learn
-          and gain new skills and qualifications.
+          For seven years of my professional career, I focused mainly on
+          wholesale sales and gained extensive experience in building
+          relationships with customers. However, for the last year I have
+          focused my efforts on the technical aspects of the company's
+          activities, which allowed me to gain knowledge and skills in creating
+          websites and online sales. This change reflects my ability to adapt to
+          new challenges and constantly develop competences in various areas.
         </p>
         <p className={classes.paragraph}>
           In my spare time I'm a movie buff and a board gamer.
@@ -47,7 +49,8 @@ const Card = (props) => {
         <ProjectLink
           href="/random-training"
           title="Random Training Video"
-          description="Made with EJS and mongoDB."
+          description="Made with EJS and mongoDB.
+          WARNING: Takes a long time to load due to hosting on render.com "
         />
       </Column>
     </div>
